@@ -4,7 +4,7 @@ import { StyleSheet, Text, TextInput, View, Button } from "react-native";
 
 export default function App() {
   return (
-    <View style={{ padding: 50, flexDirection: "row" }}>
+    <View style={{ padding: 50, flexDirection: "row-reverse" }}>
       {/* <View
         style={{
           flexDirection: "row",
