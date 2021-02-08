@@ -4,7 +4,9 @@ import { StyleSheet, Text, TextInput, View, Button } from "react-native";
 
 export default function App() {
   return (
-    <View style={{ padding: 50, flexDirection: "row-reverse" }}>
+    <View
+      style={{ padding: 50, flexDirection: "row", width: "80%", height: 300 }}
+    >
       {/* <View
         style={{
           flexDirection: "row",
@@ -28,8 +30,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "red",
-          width: 100,
-          height: 100,
+
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -39,8 +40,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "blue",
-          width: 100,
-          height: 100,
+
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -50,8 +50,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "green",
-          width: 100,
-          height: 100,
+
           justifyContent: "center",
           alignItems: "center",
         }}
